@@ -1,4 +1,5 @@
 # CS-320 Software Testing
+[Return to eportfolio](https://github.com/AnthonyBaratti/AnthonyBaratti.github.io/blob/main/README.md)
 ## Java Service Validation and Unit Testing Project
 ### Overview
 This project demonstrates Java service-layer development and unit testing with JUnit. It containes three independent service modules: Contact Service, Task Service, and Appointment Service. <br><br>
@@ -6,6 +7,7 @@ Each module creates objects with specific validation rules, stores them in an in
 ## Services Included
 ------------------
 ### Contact Service
+[Contact Service Files](https://github.com/AnthonyBaratti/CS-320-Software-Testing/tree/main/contact-service/src)
 The Contact Service manages contact records. Each contact object includes:
 - Contact ID
 - First Name
@@ -25,6 +27,7 @@ Validation rules include:
 - Address cannot be null or longer than 30 characters
 
 ### Task Service
+[Task Service Files](https://github.com/AnthonyBaratti/CS-320-Software-Testing/tree/main/task-service/src)
 The Task Service manages task records. Each task includes:
 - Task ID
 - Task Name
@@ -41,6 +44,7 @@ Validation rules include:
 - Task description cannot be null or longer than 50 characters
 
 ### Appointment Service
+[Appointment Service Files](https://github.com/AnthonyBaratti/CS-320-Software-Testing/tree/main/appointment-service/src)
 The Appointment Service manages appointment records. Each appointment includes:
 - Appointment ID
 - Appointment Date
@@ -81,3 +85,4 @@ This project demonstrates the ability to:
 - Java
 - JUnit 5
 - Eclipse IDE
+[Return to Top](https://github.com/AnthonyBaratti/CS-320-Software-Testing/blob/main/README.md)
